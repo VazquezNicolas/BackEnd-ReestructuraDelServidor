@@ -1,0 +1,15 @@
+{{!-- {{#if hayCart}} --}}
+    <p>Carrito: {{title}} </p>
+    {{#each productos}}
+        <p>Productos: {{this.product}} </p>
+        <button type="submit"> Eliminar producto</button>
+        
+    {{/each}}
+    <br/>
+    <br/>
+    <button type="submit">Vaciar carrito</button>
+<br/>
+
+{{!-- {{else}}
+<h1>No hay carritos para mostrar</h1>
+{{/if}} --}}
